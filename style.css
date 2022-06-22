@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-color: darkgreen;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+}
+main {
+  background-color: #ecfcdf;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: darkgreen;
+  text-align: center;
+  line-height: 100px;
+}
+.footer-text {
+  color: #fff;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  text-decoration-color: 38b48b;
+}
+header,main,footer {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header .heading a {
+  color: #fff;
+  margin: 0 auto;
+}
+.nav-list {
+  margin: 10px 0 10px 0;
+  padding: 10px 20px;
+}
+.nav-list-item {
+  display: inline-block;
+  margin: 0 20px;
+  color: #fff;
+}
+main {
+  padding: 10px 40px 40px 40px;
+  background-color: #ecfcdf;
+}
+.Yoko-heading {
+  padding: 0 0 10px 0;
+  background-color: #ecfcdf;
+  text-align: center;
+}
+.Yoko-image {
+  width: 30%;
+  height: 480px;
+  margin: 0 10px 0 0;
+  border-radius: 10%;
+}
+.Yoko-box {
+  display: flex;
+  justify-content: flex-start;
+}
+.introduction {
+  background-color: #fff;
+  width: 70%;
+  padding: 0 10px 0 10px;
+  border-radius: 10px;
+}
+.row {
+  display: flex;
+  justify-content: flex-start;
+}
+.head {
+  width: 100px;
+  font-weight: bold;
+  padding: 20px 20px 20px 10px;
+}
+.body {
+  padding: 20px;
+}
+.social i {
+  margin-right: 20px;
+}
+@media screen and (max-width: 768px) {
+  .Yoko-box {
+    display: block;
+  }
+  .Yoko-image {
+    width: 100%;
+  }
+  .introduction {
+    width: 100%;
+    background-color: #fff;
+    height: 100%;
+  }
+}
