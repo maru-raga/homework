@@ -71,23 +71,27 @@ main {
 .introduction {
   background-color: #fff;
   width: 70%;
-  padding: auto;
+  padding: 10px;
   border-radius: 10px;
 }
 .row {
   display: flex;
   justify-content: flex-start;
-  line-height: 40px;
 }
 .head {
   width: 100px;
-  height: 40px;
   font-weight: bold;
-  padding: 11px 20px 11px 10px;
+  line-height: 40px;
+}
+.head p {
+  vertical-align: top;
 }
 .body {
-  padding: 11px 20px;
   font-size: 18px;
+  line-height: 40px;
+}
+.body p {
+  vertical-align: top;
 }
 .social i {
   margin-right: 20px;
