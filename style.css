@@ -21,6 +21,8 @@ footer {
   background-color: darkgreen;
   text-align: center;
   line-height: 100px;
+  position: absolute;
+  bottom: 0;
 }
 .footer-text {
   color: #fff;
@@ -28,7 +30,7 @@ footer {
 }
 a {
   text-decoration: none;
-  text-decoration-color: 38b48b;
+  text-decoration-color: #38b48b;
 }
 header,main,footer {
   font-family: Arial, Helvetica, sans-serif;
@@ -38,7 +40,7 @@ header .heading a {
   margin: 0 auto;
 }
 .nav-list {
-  margin: 10px 0 10px 0;
+  margin: 10px 0;
   padding: 10px 20px;
 }
 .nav-list-item {
@@ -71,24 +73,23 @@ main {
 .introduction {
   background-color: #fff;
   width: 70%;
-  padding: 10px;
+  padding: auto;
   border-radius: 10px;
 }
 .row {
   display: flex;
   justify-content: flex-start;
+  line-height: 40px;
 }
 .head {
   width: 100px;
+  height: 40px;
   font-weight: bold;
-  line-height: 40px;
-}
-.head p {
-  vertical-align: top;
+  padding: 11px 20px 11px 10px;
 }
 .body {
+  padding: 11px 20px;
   font-size: 18px;
-  line-height: 40px;
 }
 .body p {
   vertical-align: top;
@@ -107,5 +108,8 @@ main {
     width: 100%;
     background-color: #fff;
     height: 100%;
+  }
+  footer {
+    position: relative;
   }
 }
